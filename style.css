@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body{
+    background-image: url(wallpaper.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-left: 700px;
+    align-items: center;
+    background-size: 100vw 100vh;
+
+}
+#scoreBox{
+    border: 2px solid yellow;;
+    margin: 10px;
+    position: absolute;
+    top: 9px;
+    left: 50px;
+    border-radius: 15px;
+    background-color:#082502 ;
+    color:yellow;
+    padding: 10px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hiscoreBox{
+    border: 2px solid yellow;;
+    margin: 10px;
+    background-color: #04250c;
+    position: absolute;
+    border-radius: 15px;
+    padding: 10px;
+    top: 99px;
+    left: 50px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+}
+#board{
+    background: linear-gradient(rgb(2, 27, 3),rgb(240, 224, 6));
+    width: 90vmin;
+    height: 92vmin;
+    border: 5px solid rgb(211, 247, 10);
+    border-radius: 25px;
+    display: grid;
+   
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18 , 1fr);
+}
+.head{
+    background-color: rgb(247, 231, 20);
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(rgb(202, 120, 120), rgb(82, 8, 63));
+    transform: scale(1.02);
+    
+}
+.snake{
+    background: linear-gradient(rgb(63, 7, 168), rgb(252, 227, 6));
+    border: 2px solid rgb(22, 22, 21);
+    border-radius: 20px;
+    
+}
+.food{
+    background: linear-gradient(rgb(252, 50, 50), rgb(71, 158, 71));
+    border: 2px solid rgb(19, 1, 14);
+    border-radius: 20px;
+
+}
+
